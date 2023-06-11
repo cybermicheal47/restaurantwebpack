@@ -4,6 +4,13 @@ import { rendermenu } from './menu.js';
 import { rendercontact } from './contact.js';
 import './styles/main.scss'
 import laughing from './assets/laughing.svg'
+import logo from './assets/logo.png'
+import burger from './assets/burger.png'
+import fries from './assets/fries.png'
+import pizza from './assets/pizza.png'
+
+
+
 
 
 
@@ -37,3 +44,11 @@ function openTab(tabName) {
       break;
   }
 }
+
+
+
+// images
+const logoimg = document.getElementById('logoimg')
+logoimg.src = logoimg
+
+
